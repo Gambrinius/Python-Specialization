@@ -8,5 +8,5 @@
 out
 gen
 .idea/
-.env/
-env/
+.venv/
+venv/
