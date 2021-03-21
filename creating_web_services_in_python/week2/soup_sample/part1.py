@@ -1,14 +1,8 @@
 from bs4 import BeautifulSoup
 import unittest
-import re
 
 
 def parse(path_to_file):
-    # Поместите ваш код здесь.
-    # ВАЖНО!!!
-    # При открытии файла, добавьте в функцию open необязательный параметр
-    # encoding='utf-8', его отсутствие в коде будет вызвать падение вашего
-    # решения на грейдере с ошибкой UnicodeDecodeError
     imgs, headers, linkslen, lists = 0, 0, 0, 0
     with open(path_to_file, encoding='utf-8') as f:
         html = f.read()
