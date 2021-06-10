@@ -10,7 +10,7 @@ cffi==1.14.5
 chardet==4.0.0
 decorator==4.4.2
 defusedxml==0.7.1
-Django==1.11
+Django==2.2.24
 entrypoints==0.3
 idna==2.10
 ipykernel==5.5.0
